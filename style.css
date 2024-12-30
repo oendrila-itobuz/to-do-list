@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.to-do-section {
+  width: 700px;
+}
+
+.input-section {
+  background-color: rgb(239, 184, 184);
+  padding: 30px;
+}
+
+#tasks {
+  padding: 20px;
+  font-size: 24px;
+}
+#tasks img {
+  width: 40px;
+}
+#tasks > div {
+  padding: 10px;
+  display: flex;
+  border-radius: 3px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(182, 236, 218);
+}
+
+#tick-image {
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
