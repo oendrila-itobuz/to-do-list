@@ -17,14 +17,14 @@
         <div class="input-group mb-3">
           <input
             type="text"
-            id="new-task"
+            id="new-task-input"
             class="form-control p-3"
             placeholder="Enter a Task"
             aria-label="Recipient's username"
             aria-describedby="button-addon2"
           />
           <button
-            id="add-task"
+            id="add-task-button"
             class="btn btn-outline-secondary"
             type="button"
             id="button-addon2"
@@ -35,10 +35,16 @@
       </div>
       <div id="tasks"></div>
       <div class="p-5 text-center">
-        <button type="button" class="btn btn-primary">All</button>
-        <button type="button" class="btn btn-secondary">Active</button>
-        <button type="button" class="btn btn-success">Completeed</button>
-        <button type="button" class="btn btn-danger">Clear Completed</button>
+        <button type="button" id="all-task" class="btn btn-primary">All</button>
+        <button type="button" id="active" class="btn btn-secondary">
+          Active
+        </button>
+        <button type="button" id="completed" class="btn btn-success">
+          Completeed
+        </button>
+        <button type="button" id="clear-completed" class="btn btn-danger">
+          Clear Completed
+        </button>
       </div>
     </div>
 
