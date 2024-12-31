@@ -5,24 +5,41 @@
 }
 
 body {
-  padding-top: 40px;
+  margin-top: 40px;
+  padding: 10px;
 }
 
 .to-do-section {
-  width: 700px;
+  width: 100vw;
+}
+@media screen and (min-width: 768px) {
+  .to-do-section {
+    width: 700px;
+  }
 }
 
 .input-section {
   background-color: rgb(239, 184, 184);
-  padding: 30px;
+  padding: 5px;
+}
+@media screen and (min-width: 768px) {
+  .input-section {
+    padding: 30px;
+  }
 }
 
 #tasks {
   padding: 20px;
+  margin-top: 30px;
   font-size: 24px;
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 400px;
+  overflow: scroll;
 }
 #tasks img {
   width: 40px;
+  padding-left: 10px;
 }
 #tasks > div {
   padding: 10px;
@@ -36,4 +53,15 @@ body {
 
 #tick-image {
   margin-right: 10px;
+}
+
+.images {
+  display: flex;
+  -moz-column-gap: 3px;
+       column-gap: 3px;
+}
+
+.text {
+  padding-right: 10px;
+  overflow: scroll;
 }/*# sourceMappingURL=style.css.map */
